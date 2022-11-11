@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="menu">
+        <label for="iconomenu">
+            <img style="width: 60px;margin-right: 20px;cursor: pointer;" src="./menu.png" alt="">
+        </label>
+        <h1>Fabian David Martinez</h1>
+    </section>
+
+    <input type="checkbox" id="iconomenu">
+
+    <section class="menulateral1">
+        <div class="manulateral2">
+            <a href="./index.html"><img style="width: 25px;margin-right: 5px;" src="./iconosobremi.png" alt="">Sobre mi</a>
+            <a href="./Habilidades.html"><img style="width: 25px;margin-right: 5px;" src="./iconohabilidades.png" alt=""> Habilidades</a>
+            <a href="./proyectos.html"><img style="width: 25px;margin-right: 5px;" src="./iconoproyectos.png" alt=""> Proyectos</a>
+            <a href="./contactame.html"><img style="width: 25px;margin-right: 5px;" src="./iconocontactame.png" alt=""> Contactame</a>
+        </div>
+    </section>
+
+    <section id="Habilidades">
+        <div class="subtitulo">
+            <h2>Habilidades</h2>
+        </div>
+        <div class="habilidades">
+            <img style="width: 280px;" src="./html.png" alt="HTML">
+            <img style="width: 200px;" src="./javascript.png" alt="">
+            <img style="width: 200px; margin-left: 40px;" src="./css.png" alt="CSS">
+        </div>
+    </section>
+    <style>
+        @media (max-width: 700px) {
+            .habilidades{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px;
+            flex-direction: column;
+            }
+        }
+    </style>
+
+</body>
+</html>
