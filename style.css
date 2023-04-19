@@ -132,7 +132,7 @@ body{
     display: flex;
     justify-content: center;
     background: rgb(255 255 255 / 80%);
-    width: 50%;
+    width: 330px;
     padding: 15px;
     border-radius: 15px;
 }
@@ -160,7 +160,8 @@ width: 80px;
 }
 
 .proyectos img{
-    width: 500px;
+    width: 90%;
+    max-width: 450px;
 }
 
 .proyectos p{
@@ -202,5 +203,17 @@ width: 80px;
     font-size: 19px;
     width: 50%;
 }
-
+ 
+@media (max-width: 580px){
+    .menu h1 {
+        color: rgb(196, 134, 134);
+        min-width: 300px;
+        margin: 10px;
+    }
+    .diplomas img {
+        width: 80%;
+        margin: 10px;
+        border-radius: 15px;
+    }
+}
 
