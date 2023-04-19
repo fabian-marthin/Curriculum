@@ -210,10 +210,27 @@ width: 80px;
         min-width: 300px;
         margin: 10px;
     }
+    .presentacion p {
+        display: flex;
+        justify-content: center;
+        padding: 25px;
+        background: rgb(15 16 0 / 80%);
+        width: 90%;
+        border-radius: 20px;
+        align-items: center;
+        font-size: 17px;
+        color: wheat;
+        flex-direction: column;
+    }
+    .presentacion img {
+        width: 50%;
+        border-radius: 50%;
+    }
     .diplomas img {
         width: 80%;
         margin: 10px;
         border-radius: 15px;
     }
+
 }
 
