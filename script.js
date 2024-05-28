@@ -27,18 +27,11 @@ const contacto = document.querySelector(".contacto");
 contacto.addEventListener("click", ()=>{
     console.log("hola4");
     window.scrollTo({
-        top: 5000,
+        top: 8000,
         behavior: 'smooth'
     });
 })
 
-
-/* function scrollToPosition(targetPosition) {
-    window.scrollTo({
-        top: targetPosition,
-        behavior: 'smooth'
-    });
-} */
 
 
 const btnDesc = document.getElementById("btnCurri");
