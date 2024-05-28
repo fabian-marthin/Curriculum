@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Varela+Round&display=swap');
+
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -16,11 +19,14 @@ body{
     display: flex;
     justify-content: space-between;
     border-bottom: solid 1px;
-    background: rgb(43 38 87 / 50%);
+    background: #0A111F;
     align-items: center;
     height: 60px;
     position: fixed;
     width: 100%;
+}
+#menu img{
+    width: 110px;
 }
 #menu p{
     color: #FFFFFF;
@@ -54,6 +60,18 @@ body{
     padding: 15px;
     width: 400px;
 }
+#perfil h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #0a111f;
+}
+#perfil p{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* DESCRIPCION */
 #descripcion{
@@ -74,11 +92,12 @@ body{
     background: #0A111F;
     color: #FFFFFF;
     padding: 40px;
-    position: relative;
+    position: static;
     top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 0 0 50px 0;
 }
 .btnCurrriculum{
     border: solid 1px #FCA311;
@@ -107,8 +126,134 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+#diplomas div{
+    background: #0A111F;
+    color: #FFFFFF;
+    margin: 30px;
+    width: 420px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0 0 50px 0;
 }
 #diplomas img{
-    width: 400px;
+    width: 100%;
+}
+#diplomas p{
+    padding: 5px;
+}
+
+/* PROYECTOS */
+#presentacionProyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+}
+#presentacionProyectos div{
+    #descripcion div{
+        width: 70%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 200px;
+        
+    }
+}
+#presentacionProyectos p{
+    background: #0A111F;
+    color: #FFFFFF;
+    padding: 40px;
+    position: static;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 50px 0;
+    width: 800px;
+}
+#proyectos{
+    padding-top: 100px;
+    background-image: url(./imagenees/fondoProyectos.jpg);
+    background-size: cover;
+    background-position-x: right;
+    background-attachment: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+#proyectos div{
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
+    background: #0a111f;
+    padding: 10px;
+    border-radius: 0 0 50px 0;
+}
+.imgProyecto{
+    width: 100%;
+    height: 300px;
+}
+#proyectos p{
+    color: #FFFFFF;
+    padding: 10px;
+}
+.iconoYoutube{
+    width: 75px;
+    cursor: pointer;
+}
+
+/* CONTACTAME */
+
+#contactame{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0px;
+}
+#contactame div{
+    width: 70%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 110px;
+}
+#contactame p{
+    background: #0A111F;
+    color: #FFFFFF;
+    padding: 40px;
+    position: static;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 50px 0;
+    width: 700px;
+}
+
+#iconosContact{
+    padding-top: 100px;
+    background-image: url(./imagenees/fondoContactame.jpg);
+    background-size: cover;
+    background-position-x: right;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+}
+
+#iconosContact img{
+    width: 150px; 
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
 }
