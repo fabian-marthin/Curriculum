@@ -86,6 +86,8 @@ body{
     color: #FFFFFF;
     text-decoration: none;
     cursor: pointer;
+    margin: 10px;
+    background: #0A111F;
 }
 .btnCurrriculum:hover{
     background-color: #FCA311;
