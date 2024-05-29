@@ -273,6 +273,12 @@ body{
         width: 100%;
         flex-direction: row;
     }
+    #perfil div{
+        margin-left: 10%;
+        padding: 15px;
+        max-width: 400px;
+        width: 80%;
+    }
     .opciones{
         display: flex;
         list-style-type: none;
@@ -281,6 +287,10 @@ body{
     #diplomas {     
         padding-top: 700px;
         padding-bottom: 200px;
+    }
+    #diplomas div{
+        max-width: 420px;
+        width: 80%;
     }
     #proyectos{
         padding-top: 200px;
