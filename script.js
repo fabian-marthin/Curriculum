@@ -43,7 +43,7 @@ function abrirCurriculum (){
 const btnYoutube = document.querySelector(".iconoYoutube");
 btnYoutube.addEventListener("click", abrirYouTube);
 function abrirYouTube(){
-    window.open("https://www.youtube.com/watch?v=f6Ynda2Jpao&t=50s")
+    window.open("https://www.youtube.com/watch?v=f6Ynda2Jpao&t")
 }
 
 const whatsapp = document.querySelector(".whatsapp");
