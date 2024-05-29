@@ -17,17 +17,18 @@ diplomas.addEventListener("click", ()=>{
 })
 const proyectos = document.querySelector(".proyectos");
 proyectos.addEventListener("click", ()=>{
-    if(window.innerHeight<=800){
+    if(window.innerHeight>745){
         window.scrollTo({
-            top: 4900,
+            top: 2700,
             behavior: 'smooth'
         });
     }else{
         window.scrollTo({
-            top: 2720,
+            top: 4900,
             behavior: 'smooth'
         });
     }
+    
 })
 const contacto = document.querySelector(".contacto");
 contacto.addEventListener("click", ()=>{
